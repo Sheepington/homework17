@@ -71,18 +71,22 @@ p {
     }
 
 .navbar a.active {
-    color: black;
     text-decoration: underline !important;
-    border-bottom: 3px solid #58AA84 !important;
+    border-bottom: 5px solid #58AA84 !important;
 }
-    
+
+.nav-item.active .nav-link {
+    color: black !important;
+    border-bottom: 3px solid #58AA84;
+}
+
 a {
     color: black !important;
     text-decoration: none;
 }
     
 a:hover {
-    color:#58AA84 !important;
+    color:gray !important;
     text-decoration: none;
 }
     
